@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Honeycrisp_Assignment10", "Honeycrisp_Assignment10\Honeycrisp_Assignment10.pyproj", "{DA254A5B-7364-4CF3-A4F8-B68E7146F570}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA254A5B-7364-4CF3-A4F8-B68E7146F570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA254A5B-7364-4CF3-A4F8-B68E7146F570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C66FDC71-C069-4E14-864E-8EB2A272DC36}
+	EndGlobalSection
+EndGlobal
