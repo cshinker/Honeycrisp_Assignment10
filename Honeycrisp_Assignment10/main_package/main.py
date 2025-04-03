@@ -20,5 +20,6 @@ if __name__ == "__main__":
 
     parsed_json = api.apiconnect("https://swapi.dev/api/planets/")
 
-    api.ApiData(parsed_json)
+    #api.ApiData(parsed_json, 1)   # The was our original function, leaving it as a comment just for commit documentation
+    api.planetLookup(parsed_json, 1)
   
