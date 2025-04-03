@@ -1,6 +1,6 @@
 # File Name: main.py
-# Student Name: Cam Shinker
-# email: shinkecj@mail.uc.edu
+# Student Name: Cam Shinker,luke elmore
+# email: shinkecj@mail.uc.edu, elmorels@mail.uc.edu
 # Assignment Number: Assignment 10
 # Due Date: 4/10/2025
 # Course #/Section: IS 4010-002
@@ -12,5 +12,13 @@
 
 # Anything else that's relevant:
 
+import json 
+from api_package.api import *
 if __name__ == "__main__":
-    pass
+    
+    api = apifunctions()
+
+    parsed_json = api.apiconnect("https://swapi.dev/api/planets/")
+
+    api.ApiData(parsed_json)
+  
