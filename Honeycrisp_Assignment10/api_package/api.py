@@ -11,3 +11,15 @@
 # Citations: 
 
 # Anything else that's relevant:
+
+import requests
+import json
+
+class apifunctions():
+    '''
+    Contains functions that work with APIs
+    '''
+    def apiconnect(self, url):
+        response = requests.get(url)
+        json_string = response.content
+        return json_string
