@@ -1,5 +1,5 @@
 # File Name: api.py
-# Student Name: Cam Shinker,luke elmore
+# Student Name: Cam Shinker, Luke Elmore
 # email: shinkecj@mail.uc.edu,elmorels@mail.uc.edu
 # Assignment Number: Assignment 10
 # Due Date: 4/10/2025
@@ -24,6 +24,7 @@ class apifunctions():
         """
         Connects to the api
         @param url string: the url that has the Api key
+        @return parsed_json dict: A dictionary containing data from the api
         """
         response = requests.get(url)
         json_string = response.content
@@ -52,6 +53,7 @@ class apifunctions():
 
         loop_keys = ['name','rotation_period', 'orbital_period', 'diameter', 'climate', 'terrain', 'population']
         results = parsed_json['results']
+        print("Planet Information")
         for key in loop_keys:
             if key in results[planet_id]:
                 print(key+":", results[planet_id][key])

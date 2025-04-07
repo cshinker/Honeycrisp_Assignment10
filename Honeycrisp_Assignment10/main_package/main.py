@@ -1,5 +1,5 @@
 # File Name: main.py
-# Student Name: Cam Shinker,luke elmore
+# Student Name: Cam Shinker, Luke elmore
 # email: shinkecj@mail.uc.edu, elmorels@mail.uc.edu
 # Assignment Number: Assignment 10
 # Due Date: 4/10/2025
@@ -13,7 +13,10 @@
 # Anything else that's relevant:
 
 import json 
+import csv
 from api_package.api import *
+from csv_package.csv import *
+
 if __name__ == "__main__":
     
     api = apifunctions()
@@ -22,4 +25,8 @@ if __name__ == "__main__":
 
     #api.ApiData(parsed_json, 1)   # The was our original function, leaving it as a comment just for commit documentation
     api.planetLookup(parsed_json, 1)
+
+    
+    csvfunction(parsed_json)
+
   
